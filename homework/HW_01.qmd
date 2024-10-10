@@ -3,14 +3,16 @@ title: "Homework 1"
 format: html
 ---
 
-__Name:__ \<your name here\>
+__Name:__ Gabriel Hassler
 
 
 __Question 1:__ Use a programming language of your choice to save today's date to a variable.
 Then, include the date in the text below the code block.
 
-```
+```{julia}
 # your code here
+using Dates
+x = today()
 ```
 
-Today's date is: `<your answer here>`.
+Today's date is: `{julia} x`.
